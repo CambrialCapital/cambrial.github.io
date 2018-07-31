@@ -265,9 +265,16 @@ body {
 
 #cover-page-logo {
 	margin: 0 auto;
-	margin-top: 100px;
-	width: 35%;
+	margin-top: 50px;
+	width: 50%;
+}
 
+@media only screen and (min-width: 600px) {
+    #cover-page-logo {
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 35%;
+    }
 }
 
 .strapline-container {
