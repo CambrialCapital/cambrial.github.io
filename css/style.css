@@ -257,10 +257,9 @@ body {
 }
 
 #cover-page-logo-container {
-	margin: 0 auto;
+	margin: 10px 20px;
 	/*background-color: yellow;*/
 	text-align: center;
-	margin-bottom: 50px;
 
 }
 
@@ -285,7 +284,8 @@ body {
 }
 
 #strapline-h2 {
-	padding-top: 2vh;
+	text-align: center;
+    padding-top: 1vh;
 	width: 80%;
 	margin-left: 10%;
 }
