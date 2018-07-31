@@ -45,7 +45,7 @@ h1, h2, h3 { margin: 0 0 10px 0; }
 	line-height: 145%;
 	font-family:  'montserrat';
 	letter-spacing: 0.20em;
-	color: #61728E;
+	color: #141516;
 }
 
 .ts-h4 {
@@ -89,7 +89,7 @@ h1, h2, h3 { margin: 0 0 10px 0; }
 
 a {
 	text-decoration: none !important;
-	color: #559BD1;
+	color: #00006c;
 }
 
 a:hover {
@@ -277,6 +277,10 @@ body {
 *//*	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);*/
+    font-family: 'Nunito', sans-serif;
+    font-kerning: normal;
+    
+    
 }
 
 #strapline-h1 {
@@ -288,6 +292,7 @@ body {
     padding-top: 1vh;
 	width: 80%;
 	margin-left: 10%;
+    color: #141516;
 }
 
 /* **************************** */
