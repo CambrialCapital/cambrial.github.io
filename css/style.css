@@ -14,17 +14,7 @@
 /* ******** TEXT STYLES******* */
 /* **************************** */
 
-/*Here's a mockup of website indicating the text styles: https://cl.ly/25012m3y140m*/
 
-
-.ts-body {
-	/*Style is defined in .body*/
-}
-
-
-.ts-menu-item {
-	/*Style is defined in .navbar .navbar-nav li a */
-}
 
 h1, h2, h3 { margin: 0 0 10px 0; }
 
@@ -37,7 +27,7 @@ h1, h2, h3 { margin: 0 0 10px 0; }
 }
 
 .ts-h2 {
-	font-size: 12px;
+	font-size: 14px;
     font-family: 'nunito';
 	line-height: 145%;
 	color: #141516;
@@ -219,8 +209,12 @@ body {
 #cover-page {
 	margin-top: 150px;
 	/*background-color: orange;*/
-
 }
+
+#cover-page a {
+	text-decoration: underline;
+}
+
 
 #cover-page-logo-container {
 	/*background-color: yellow;*/
