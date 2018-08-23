@@ -250,6 +250,14 @@ body {
 	width: 60%;
 }
 
+@media only screen and (max-width: 768px) {
+		#cover-page { margin-top: 0px;}
+		.service-item-description { padding: 35px; width:100%; margin-top: 0px }
+		.service-items-container .service-item-text { font-size:  12px; }
+		.service-items-container .service-item-text:not(:last-child):after { padding: 0px 10px; }
+		.service-items-container .ts-item-title {	text-align: center !important; display: block; margin: auto; }
+	}
+
 /* **************************** 
 /* ********** EVENTS ********** */
 /* **************************** */
