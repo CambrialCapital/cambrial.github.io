@@ -113,8 +113,8 @@ body {
 	width: 100%;
 	height: 100px;
 	overflow: hidden;
-/*	background-color: red;
-*/	opacity: 0.85;
+	/*background-color: red;*/
+	/*opacity: 0.5;*/
 	position: absolute;
 	z-index: -1
 }
@@ -122,8 +122,9 @@ body {
 .navbar-nav {
 	text-align: center;
 	width: 100%;
-/*	background-color: green;
-*/}
+	background: white;
+	opacity: 0.95;
+}
 
 
 .navbar-nav li {
@@ -275,9 +276,23 @@ body {
 text-decoration: underline;
 }
 
+.event-table {
+	width: 100%;
+	background-color: yellow;
+}
+
+td {
+	background-color: blue;
+	width: 75%;
+	padding: 10px;
+}
+
 .event-date {
-	float:right;
-	color: red;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	color: green;
+	background-color: purple;
 
 	}
 
