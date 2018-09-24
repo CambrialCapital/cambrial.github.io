@@ -278,11 +278,11 @@ text-decoration: underline;
 
 .event-table {
 	width: 100%;
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 
 td {
-	background-color: blue;
+	/*background-color: blue;*/
 	width: 75%;
 	padding: 10px;
 }
@@ -291,10 +291,17 @@ td {
 	display: inline-block;
 	width: 100%;
 	text-align: right;
-	color: green;
-	background-color: purple;
-
+	/*color: green;*/
+	/*background-color: purple;*/
+/*	text-transform: capitalize;
+*/
 	}
+
+	.event-date p {
+	font-style: italic;
+	
+	}
+
 
 
 
