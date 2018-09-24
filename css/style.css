@@ -40,7 +40,7 @@ h1, h2, h3 { margin: 0 0 10px 0; }
 }
 
 .ts-h4 {
-
+	
 }
 
 
@@ -64,18 +64,18 @@ span {
 
 body {
 	color: #00006C;
-	background-color: none;
+	background-color: none; 
 	text-align: justify;
 	font-family: 'Nunito', sans-serif;
 
 }
 
 .clear {
-	clear: both;
+	clear: both; 
 }
 
 .container {
-	background-color: none;
+	background-color: none;	
 	margin-bottom: 150px;
 	max-width: 920px;
 }
@@ -256,12 +256,12 @@ body {
 		.service-items-container .ts-item-title {	text-align: center !important; display: block; margin: auto; }
 	}
 
-/* ****************************
+/* **************************** 
 /* ********** EVENTS ********** */
 /* **************************** */
 
 .events-body{
-	/background-color: white/
+	/*background-color: green;*/
 	margin-top: 150px;
 
 }
@@ -278,11 +278,11 @@ text-decoration: underline;
 
 .event-table {
 	width: 100%;
-	/background-color: white/
+	/*background-color: yellow;*/
 }
 
 td {
-	/background-color: white;/
+	/*background-color: blue;*/
 	width: 75%;
 	padding: 10px;
 }
@@ -291,15 +291,15 @@ td {
 	display: inline-block;
 	width: 100%;
 	text-align: right;
-	/color: white;/
-	/background-color: white/
+	/*color: green;*/
+	/*background-color: purple;*/
 /*	text-transform: capitalize;
 */
 	}
 
 	.event-date p {
 	font-style: italic;
-
+	
 	}
 
 
@@ -326,7 +326,7 @@ td {
 
 	.footer a {
 		text-decoration: none;
-		text-align: center;
+		text-align: center;	
 		color: #000E30;
 		line-height: 40px;
 		overflow: visible;
@@ -364,9 +364,9 @@ td {
 		z-index: -1;
 		bottom: 0;
 		height: 200px;
-		margin: 0 auto;
-		text-align: center;
-		opacity: 0.1;
+		margin: 0 auto;	
+		text-align: center;  
+		opacity: 0.1;  
 	}
 
 	#bottom img {
