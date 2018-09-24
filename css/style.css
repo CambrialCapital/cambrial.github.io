@@ -11,6 +11,11 @@
 
 
 
+
+
+
+
+
 /* **************************** */
 /* ******** TEXT STYLES******* */
 /* **************************** */
@@ -99,17 +104,17 @@ body {
 /* ********* NAV BAR ********** */
 /* **************************** */
 
-.navbar .container-fluid {
-	/*padding-top: 10px;*/
- 	/*background-color: red;*/
-}
+/*.navbar .container-fluid {
+	padding-top: 10px;
+ 	background-color: red;
+}*/
 
 .navbar .bkgrd-color {
 	width: 100%;
 	height: 100px;
 	overflow: hidden;
-	background-color: transparent;
-	opacity: 0.85;
+/*	background-color: red;
+*/	opacity: 0.85;
 	position: absolute;
 	z-index: -1
 }
@@ -117,16 +122,16 @@ body {
 .navbar-nav {
 	text-align: center;
 	width: 100%;
-	/*background-color: green;*/
-}
+/*	background-color: green;
+*/}
 
 
 .navbar-nav li {
       float: none;
       display: inline-block;
       padding: 10px;
-      /*background-color: red;*/
-}
+/*      background-color: orange;
+*/}
 
 
 .navbar .navbar-nav a {
@@ -140,14 +145,7 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) {
-	.navbar .navbar-nav {	margin-right: 0px; }
-	.navbar .navbar-nav li a {
-		text-align: right;
-		margin: 6px 15px;
-	}
-	.navbar .collapse { box-shadow: rgb(236, 236, 236) 0px 2px 0px; }
-}
+
 
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:focus {
 	background-color: transparent;
@@ -193,14 +191,6 @@ body {
 	border-radius: 4px;
 	margin-bottom: 5px;
 }
-
-@media only screen and (max-width: 768px) {
-	.navbar-collapse { background-color: none; }
-	.navbar .bkgrd-color { opacity: 1; }
-	.navbar .navbar-nav li a { padding: 6px 0px; }
-	#nav-contact { padding: 12px 1.3em; }
-}
-
 
 
 
@@ -285,7 +275,11 @@ body {
 text-decoration: underline;
 }
 
+.event-date {
+	float:right;
+	color: red;
 
+	}
 
 
 
@@ -361,3 +355,18 @@ text-decoration: underline;
 		text-align: center;
 	}
 
+
+
+
+/* **************************** */
+/* ****** MEDIA QUERIES******** */
+/* **************************** */
+
+
+@media only screen and (max-width: 768px) {
+	.navbar-nav {margin: 0 auto;}
+	.navbar-nav li {padding: 0px;}
+	.navbar .navbar-nav a {margin: 0px 10px;font-size: 11px}
+
+
+}
