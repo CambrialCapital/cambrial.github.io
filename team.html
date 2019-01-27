@@ -5,13 +5,13 @@
 
     <!-- Titles and meta -->
 
-    <title>Cambrial Capital</title>
+    <title>Events</title>
 
     <meta name="description" content="Cambrial Capital, building an institutional grade fund of funds strategy in the digital asset space">
     <meta name="keywords" content="crypto, cryptopassets, cryptocurrencies, fund of funds, venture capital">
     <meta name="author" content="Cambrial Capital">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content="Cambrial Capital" />
@@ -51,12 +51,13 @@
 
 <body>
     <div class="container">
+        <div class="row">
 
             <!-- ********************************** -->
             <!-- ************* NAV BAR ************ -->
             <!-- ********************************** -->
 
-			<nav class="navbar">
+			<nav class="navbar navbar-fixed-top">
 				<div class="bkgrd-color"></div>
 				<div class="container-fluid">
 					</div>
@@ -69,51 +70,179 @@
 <!-- 						<li><a class="ts-menu-item" id="nav-contact" href="#contact-a">Contact →</a></li>
  -->						</ul>
 			</nav>
+        </div>
+        <!-- End row -->
 
-
-            <!-- ********************************** -->
-            <!-- ************ COVER PAGE ********** -->
-            <!-- ********************************** -->
-
-            <div class="cover-page-container">
-                <!-- cover page container -->
-                <div id="cover-page">
-                    <!-- cover-page  -->
-                    <div id="cover-page-logo-container">
-                        <IMG id="cover-page-logo" SRC="assets/lockup-tight-vector.svg" alt="Cambrial Capital Logo"/>
+        <div class="cover-page-container">
+            <!-- cover page container -->
+            <div id="cover-page">
+                <!-- cover-page  -->
+                <div id="cover-page-logo-container">
+                    <IMG id="cover-page-logo" SRC="assets/lockup-tight-vector.svg" alt="Cambrial Capital Logo"/>
+                </div>
+                <div class="strapline-container">
+                    <div id="strapline-h1">
+                        <h1 class="ts-h1"></h1>
                     </div>
-                    <div class="strapline-container">
-                        <div id="strapline-h1">
-                            <h1 class="ts-h1">Cambrial is an investment firm deploying a fund of funds strategy.</h1>
-                        </div>
-                        <div id="strapline-h2">
-                            <h2 class="ts-h2">
-                                <a class="typeform-share link" href="https://cambrial.typeform.com/to/o0HOSe" data-mode="popup" target="_blank"> Contact us.
-                                </a>
-                            </h2>
-                            <script>
-                                (function() {
-                                    var qs, js, q, s, d = document,
-                                        gi = d.getElementById,
-                                        ce = d.createElement,
-                                        gt = d.getElementsByTagName,
-                                        id = "typef_orm_share",
-                                        b = "https://embed.typeform.com/";
-                                    if (!gi.call(d, id)) {
-                                        js = ce.call(d, "script");
-                                        js.id = id;
-                                        js.src = b + "embed.js";
-                                        q = gt.call(d, "script")[0];
-                                        q.parentNode.insertBefore(js, q)
-                                    }
-                                })()
-                            </script>
-                        </div>
+                    <div id="strapline-h2">
+                        <h2 class="ts-h2">
+
+                        </h2>
+                        <script>
+                            (function() {
+                                var qs, js, q, s, d = document,
+                                    gi = d.getElementById,
+                                    ce = d.createElement,
+                                    gt = d.getElementsByTagName,
+                                    id = "typef_orm_share",
+                                    b = "https://embed.typeform.com/";
+                                if (!gi.call(d, id)) {
+                                    js = ce.call(d, "script");
+                                    js.id = id;
+                                    js.src = b + "embed.js";
+                                    q = gt.call(d, "script")[0];
+                                    q.parentNode.insertBefore(js, q)
+                                }
+                            })()
+                        </script>
                     </div>
                 </div>
-                <!-- end cover-page -->
             </div>
-            <!-- end cover page container -->
+            <!-- end cover-page -->
+        </div>
+        <!-- end cover page container -->
+
+
+</div>
+    <!-- end container -->
+
+
+<!-- 	<div id="bottom">
+<img src="assets/mark.svg">
+</div> -->
+
+
+<!-- ********************************** -->
+<!-- *********** JAVA SCRIPT ********** -->
+<!-- ********************************** -->
+
+<!-- Js libraries  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/formhandler.js"></script>
+
+<!-- Unique collapsing  -->
+<script>
+    $('.toggle-si').click(function() {
+        if (!$(this).next().hasClass('in')) {
+            $("#service-item-description-container").children('.collapse.in').collapse('hide');
+        }
+    });
+</script>
+<script>
+    $('.toggle-pi').click(function() {
+        if (!$(this).next().hasClass('in')) {
+            $("#people-item-description-container").children('.collapse.in').collapse('hide');
+        }
+    });
+</script>
+
+<!-- Smooth scrolling  -->
+<script type="text/javascript">
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+
+<!-- Contact menu click  -->
+<script type="text/javascript">
+    $(function() {
+        $("#nav-contact").click(function() {
+            $("#contact-form-container").collapse('show');
+        });
+        $("#footer-contact").click(function() {
+            $("#contact-form-container").collapse('show');
+        });
+        $('.ts-menu-item').click(function() {
+            $("#bs-example-navbar-collapse-6").collapse('hide');
+        });
+    });
+</script>
+
+<!-- Contact form, focus on name  -->
+<script type="text/javascript">
+    $('#contact-form-container').on("shown.bs.collapse", function() {
+        $("#form-name").focus();
+    });
+</script>
+
+<!-- Contact form, focus labels  -->
+<script>
+    $("input").focusin(function() {
+        $(this).parent().find(".formlabel").addClass("focused-label");
+    });
+    $("input").focusout(function() {
+        $(this).parent().find(".formlabel").removeClass("focused-label");
+    });
+    $("textarea").focusin(function() {
+        $(this).parent().find(".formlabel").addClass("focused-label");
+    });
+    $("textarea").focusout(function() {
+        $(this).parent().find(".formlabel").removeClass("focused-label");
+    });
+    $(".formlabel").click(function() {
+        $(this).parent().find(".formlabel").addClass("focused-label");
+        $(this).next().focus();
+    });
+</script>
+
+</body>
+
+</html>
+
+
+            <!-- ********************************** -->
+            <!-- ************ EVENTS BODY ********** -->
+            <!-- ********************************** -->
+
+            <div class="container">
+                <!-- events body container -->
+                <div class="row events-body">
+                    <div class="col-md">
+
+
+
+
+
+
+
+
+
+
+
+<script> type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false" </script>
+<script> type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"2a2b440608937119b5cca0ed7","lid":"797d562e8b","uniqueMethods":false}) })
+</script>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- events body container -->
+
 
 
     </div>
