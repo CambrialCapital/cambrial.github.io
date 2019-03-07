@@ -22,14 +22,14 @@
 
 
 
-h1, h2, h3 { margin: 0 0 10px 0; }
+h1, h2, h3 { margin: 0 0 20px 0; }
 
 .ts-h1 {
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 190%;
 	font-family: 'nunito';
 	font-weight: 600;
-	/*letter-spacing: 0.12em;*/
+	letter-spacing: 0.025em;
 }
 
 .ts-h2 {
